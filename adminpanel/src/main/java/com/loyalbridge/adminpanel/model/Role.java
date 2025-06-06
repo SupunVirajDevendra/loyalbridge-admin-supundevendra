@@ -1,8 +1,10 @@
 package com.loyalbridge.adminpanel.model;
 
+// Role.java
 public enum Role {
-    SUPERADMIN,
-    FINANCETEAM,
-    SUPPORTSTAFF,
-    PARTNERADMIN
+    ADMIN,
+    MANAGER,
+    USER,
+    SUPPORT
 }
+
